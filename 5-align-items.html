@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <title> Primeiro elemento filho </title>
+</head>
+<body>
+ <section>
+  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+</section>
+ <article>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+ </article>
+</body>
+<style>
+
+ article p:first-of-type {
+  font-style: italic;
+ }
+  article p::before{
+  content:  ' " ';
+  font-size: 2.35rem;
+  display: inline-block;
+  color: tomato;
+ }
+</style>
+</html>
